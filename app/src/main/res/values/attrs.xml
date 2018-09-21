@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdView">
+        <attr name="adSize" format="enum">
+            <enum name="Normal" value="0"/>
+            <enum name="Medium" value="1"/>
+            <enum name="Large" value="2"/>
+        </attr>
+        <attr name="adUnitId" format="string"/>
+    </declare-styleable>
+</resources>
